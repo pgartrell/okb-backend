@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_singlespecialty_singlespecialties",
+  "info": {
+    "displayName": "singlespecialty",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "singlecredential": {
+      "type": "string"
+    }
+  }
+}

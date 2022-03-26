@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_exp_exps",
+  "info": {
+    "displayName": "exp",
+    "icon": "align-right"
+  },
+  "options": {},
+  "attributes": {
+    "singleexperience": {
+      "type": "string"
+    }
+  }
+}
