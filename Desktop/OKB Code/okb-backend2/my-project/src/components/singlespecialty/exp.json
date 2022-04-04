@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_singlespecialty_exps",
+  "info": {
+    "displayName": "exp",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "singleexperience": {
+      "type": "string"
+    }
+  }
+}
