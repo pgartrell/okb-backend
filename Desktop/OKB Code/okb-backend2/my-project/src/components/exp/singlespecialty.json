@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_exp_singlespecialties",
+  "info": {
+    "displayName": "singlespecialty",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "singlecredential": {
+      "type": "string"
+    }
+  }
+}

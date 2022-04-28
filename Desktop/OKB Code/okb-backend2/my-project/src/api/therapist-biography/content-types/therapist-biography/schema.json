@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "therapist_biographies",
+  "info": {
+    "singularName": "therapist-biography",
+    "pluralName": "therapist-biographies",
+    "displayName": "therapist-biography"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "credential": {
+      "type": "string"
+    },
+    "bio": {
+      "type": "richtext"
+    },
+    "topfeature": {
+      "type": "boolean"
+    },
+    "specialty": {
+      "type": "dynamiczone",
+      "components": [
+        "exp.singlespecialty"
+      ]
+    },
+    "experience": {
+      "type": "dynamiczone",
+      "components": [
+        "singlespecialty.exp"
+      ]
+    },
+    "pics": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
