@@ -1,0 +1,76 @@
+{
+  "kind": "collectionType",
+  "collectionName": "therapy_chat_forms",
+  "info": {
+    "singularName": "therapy-chat-form",
+    "pluralName": "therapy-chat-forms",
+    "displayName": "TherapyChatForm"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female",
+        "Nonbinary",
+        "Other"
+      ]
+    },
+    "relationship": {
+      "type": "enumeration",
+      "enum": [
+        "Single",
+        "Married",
+        "Divorced",
+        "Widowed",
+        "Other"
+      ]
+    },
+    "beenintherapy": {
+      "type": "boolean"
+    },
+    "considertherapy": {
+      "type": "richtext"
+    },
+    "session": {
+      "type": "richtext"
+    },
+    "physicalhealth": {
+      "type": "enumeration",
+      "enum": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten"
+      ]
+    },
+    "eatinghabits": {
+      "type": "enumeration",
+      "enum": [
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten"
+      ]
+    },
+    "mood": {
+      "type": "boolean"
+    }
+  }
+}

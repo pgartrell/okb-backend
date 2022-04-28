@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "resources",
+  "collectionName": "resource_therapies",
   "info": {
-    "singularName": "resource",
-    "pluralName": "resources",
-    "displayName": "resource",
+    "singularName": "resource-therapy",
+    "pluralName": "resource-therapies",
+    "displayName": "resource_therapy",
     "description": ""
   },
   "options": {
@@ -13,9 +13,24 @@
   "pluginOptions": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "text"
     },
     "header1": {
+      "type": "richtext"
+    },
+    "fullDescription1": {
+      "type": "richtext"
+    },
+    "header2": {
+      "type": "richtext"
+    },
+    "fullDescription2": {
+      "type": "richtext"
+    },
+    "header3": {
+      "type": "richtext"
+    },
+    "fullDescription3": {
       "type": "richtext"
     },
     "image": {
@@ -33,22 +48,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::resource-tag.resource-tag",
-      "inversedBy": "resources"
-    },
-    "fullDescription1": {
-      "type": "richtext"
-    },
-    "header2": {
-      "type": "richtext"
-    },
-    "fullDescription2": {
-      "type": "richtext"
-    },
-    "header3": {
-      "type": "richtext"
-    },
-    "fullDescription3": {
-      "type": "richtext"
+      "inversedBy": "resource_therapies"
     }
   }
 }

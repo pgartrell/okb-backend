@@ -4,7 +4,8 @@
   "info": {
     "singularName": "biography",
     "pluralName": "biographies",
-    "displayName": "Biography"
+    "displayName": "Biography",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -36,14 +37,15 @@
       ]
     },
     "pics": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }

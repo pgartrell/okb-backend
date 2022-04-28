@@ -18,6 +18,12 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::resource.resource",
+      "mappedBy": "resource_tags"
+    },
+    "resource_therapies": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::resource-therapy.resource-therapy",
       "inversedBy": "resource_tags"
     }
   }
